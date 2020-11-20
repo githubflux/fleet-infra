@@ -5,8 +5,8 @@ metadata:
   name: webapp-common
   namespace: flux-system
 spec:
-  interval: 1h0m0s
-  path: ./k8s
+  interval: 10m0s
+  path: ./k8s/common
   prune: true
   sourceRef:
     kind: GitRepository
