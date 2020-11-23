@@ -7,7 +7,7 @@ metadata:
 spec:
   dependsOn:
   - name: webapp-common
-  interval: 10m0s
+  interval: 2m0s
   path: ./k8s/backend
   prune: true
   sourceRef:

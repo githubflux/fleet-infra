@@ -5,7 +5,7 @@ metadata:
   name: webapp-common
   namespace: flux-system
 spec:
-  interval: 10m0s
+  interval: 2m0s
   path: ./k8s/common
   prune: true
   sourceRef:
